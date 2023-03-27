@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding: 0 1.5em;
+    background-image: url(img/fondo.JPG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content{
+    max-width: 1170px ;
+    margin-left: auto;
+    margin-right: auto ;
+    padding: 1.5em ;
+}
+
+.logo1{
+    width: 200px;
+    float: left;
+    margin: 0;
+    border-radius: 150px;
+    border: 5px solid black;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span{
+    color: #b70e21;
+}
+
+.contact-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255, 7, 7, 0.9);
+}
+
+.contact-wrapper > * { 
+    padding: 1em ;
+}
+.contant-forn {
+    background: #bf9780 ;
+}
+.contant-forn form p{
+margin: 0; 
+padding: 1em;
+}
+
+.contant-forn form .e{
+    grid-column: 1 / 3;
+}
+.contant-forn form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.contant-forn form button,
+.contant-forn form input,
+.contant-forn form textarea{
+    width: 100% ;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 2px solid #ec0d0d ;
+    color: #fff;
+}
+.contant-forn form button{
+    background: #d64f5c;
+    border: 0;
+    color: black;
+    text-transform: uppercase ;
+    padding: 1em;
+}
+.contant-forn form button:hover,
+.contant-forn form button:focus{
+    background: #9c4848;
+    color: #fff;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.9);
+   
+}
+
+.contant-info{
+    background:#ffda9e ;
+}
+
+.contant-info h3,
+.contant-info ul,
+.contant-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+
+}
+.contant-info ul{
+    list-style: none;
+    padding: 0;
+    color: #000000;
+}
+.contant-info ul li{
+    padding: .3em;
+    color: #000000;
+}
+
+.contant-info h3{
+    color: #000000;
+}
+
+.contant-info p{
+    color: #000000;
+}
+
+/* LARGE SCREEN */
+@media (min-width: 700px) {
+ body{
+    padding: 0 4rem;
+ } 
+
+ .contact-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+ }
+}
+
+.h{
+    box-shadow: 0 0 20px 0 rgba(249, 5, 5, 0.9);
+    background: #bf9780;
+}
+
+    .h{
+        max-height: auto;
+        max-width: 1000px ;
+        margin-left: auto;
+        margin-right: auto ;
+        padding: 1.5em ;
+        margin-top: 35px;
+        
+    }
+    
+    .p{
+        color: #ffda9e;
+    }
+    ul{
+        color: #fff;
+    }
+ footer{
+    width: 100%;
+    height: 25px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 1em;
+    box-shadow: 0 0 20px 0 rgba(255, 7, 7, 0.9);
+ }
+ 
+   
+   
+    
+    

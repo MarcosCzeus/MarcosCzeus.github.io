@@ -1,0 +1,138 @@
+    html{
+        font-size: 20px;
+    }
+    
+    header{
+    text-align: center;
+    background-color: #bf9780;
+    margin: 0;
+    padding: 0.5%;
+    }
+
+    *{margin: 0%; padding: 0%;}
+
+    
+    body{
+        background-color: #ffda9e;
+    }
+
+    h3{
+        color: darkred;
+        font-size: 2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    div.wrapper{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .bienvenida{
+        font-size: 2em;
+        box-sizing: border-box;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .menu{
+        height: 75px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #bf9780;
+        margin: 0;
+        padding: 0.5%; 
+        box-sizing: border-box;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .boton{
+        color: white;
+        font-weight: bold;
+        display: inline-block;
+        background-color: brown;
+        line-height: 2;
+        padding: 0 1em;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 3px solid black;
+        transition: background-color 0.3s ease;
+    }
+    
+    .boton:hover{
+        background-color: green;
+        box-shadow: 0px 0px 5px #ccc;
+    }
+    
+    .menu ul{
+        margin-right: 15%;
+        letter-spacing: 3px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .logo{
+        width: 125px;
+        margin-right: auto;
+        margin-left: 5%;
+        border-radius: 75px;
+        box-sizing: border-box;
+        border: 3px solid black;
+    }
+    
+    .apaño{
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #bf9780;
+        margin: 0;
+        padding: 0.5%; 
+        box-sizing: border-box;
+    }
+
+    .restaurante1 img {
+        margin-left: 10%;
+      }
+      
+      .restaurante1 img {
+        max-width: 35%;
+        height: auto;
+      }
+    
+    .restaurante2 img {
+        margin-left: 10%;
+      }
+      
+      .restaurante2 img {
+        max-width: 35%;
+        height: auto;
+      }
+
+footer{
+    text-align: center;
+    font-size: 1em; 
+    background-color: #bf9780;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+div article{
+    font-size: auto;
+    height: auto;
+    width: 100%;
+    margin: 0.5%;
+    border: 2px dashed #16A085;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: #d4ac94;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div article img{
+        margin-left: 10%;
+        max-width: 35%;
+        height: auto;
+}

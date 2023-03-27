@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffda9e;
+}
+
+header{
+    text-align: center;
+    background-color: #bf9780;
+    margin: 0;
+    padding: 0.5%;
+}
+
+.bienvenida{
+    font-size: 2em;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #bf9780;
+    margin: 0;
+    padding: 0.5%; 
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.boton{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    background-color: brown;
+    line-height: 2;
+    padding: 0 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid black;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover{
+    background-color: green;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.menu ul{
+    margin-right: 15%;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 125px;
+    margin-right: auto;
+    margin-left: 5%;
+    border-radius: 75px;
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+
+.apaño{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #bf9780;
+    margin: 0;
+    padding: 0.5%; 
+    box-sizing: border-box;
+}
+
+h1{
+    color: darkred;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+section article li{
+    margin-left: 4%;
+}
+
+.lista{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.f{
+    font-size: 1rem;
+    background-color: #bf9780;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+.bebidasf{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.bebidasc{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.articulos{
+    cursor: pointer;
+}
+
+.articulos:hover{
+    background-color: #aa99ac;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+section article{
+    font-size: 0.9rem;
+    height: 340px;
+    width: 32.33%;
+    margin: 0.5%;
+    float: left;
+    border: 2px dashed #000000;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: #d4ac94;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section article img{
+    height: 180px;
+    max-width: 80%;
+    margin: 5px auto;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    font-size: 1em; 
+    background-color: #bf9780;
+    padding: 1%;
+    box-sizing: border-box;
+}
