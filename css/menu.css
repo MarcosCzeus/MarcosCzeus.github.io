@@ -146,10 +146,16 @@ footer{
 }
 
 @media screen and (max-widht: 480px) {
+    html{
+        font-size: 0.8rem;
+    }
     /*estilo para movile*/
 }
 
 @media screen and (max-widht: 480px) and (max-widht: 768px){
+    html{
+        font-size: 0.8rem;
+    }
     /*estilo para tablet*/
 }
 
