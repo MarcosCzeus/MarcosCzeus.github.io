@@ -144,22 +144,3 @@ footer{
     padding: 1%;
     box-sizing: border-box;
 }
-
-@media screen and (max-widht: 480px) {
-    html{
-        font-size: 0.8rem;
-    }
-    /*estilo para movile*/
-}
-
-@media screen and (max-widht: 480px) and (max-widht: 768px){
-    html{
-        font-size: 0.8rem;
-    }
-    /*estilo para tablet*/
-}
-
-@media screen and (max-widht: 769px) {
-    /*estilo para pc*/
-        
-}
