@@ -1,6 +1,6 @@
 # MarcosCzeus.github.io
 
-[Trello.pdf](https://github.com/MarcosCzeus/MarcosCzeus.github.io/files/11302351/Trello.pdf)
+link hacia trello https://trello.com/b/wLCAIkyA/desafio2
 
 [Desarrollado por (3) (1).pdf](https://github.com/MarcosCzeus/MarcosCzeus.github.io/files/11302352/Desarrollado.por.3.1.pdf)
 
