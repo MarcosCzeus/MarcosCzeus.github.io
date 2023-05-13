@@ -1,6 +1,6 @@
 # MarcosCzeus.github.io
 
-[Trello.pdf](https://github.com/MarcosCzeus/MarcosCzeus.github.io/files/11302351/Trello.pdf)
+link hacia trello https://trello.com/b/wLCAIkyA/desafio2
 
 [Desarrollado por (3) (1).pdf](https://github.com/MarcosCzeus/MarcosCzeus.github.io/files/11302352/Desarrollado.por.3.1.pdf)
 
@@ -9,3 +9,7 @@
 [Desarrolladores.pdf](https://github.com/MarcosCzeus/MarcosCzeus.github.io/files/11302355/Desarrolladores.pdf)
 
 [Creative Commons.pdf](https://github.com/MarcosCzeus/MarcosCzeus.github.io/files/11302359/Creative.Commons.pdf)
+
+Participantes: Marcos Ceseus Medina Velásquez #MV232358
+               Marcelo Gabriel Rosales Torres #RT232235
+               Emerson Josué Gabriel Rosales  #GR 
