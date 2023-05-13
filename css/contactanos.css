@@ -145,9 +145,11 @@ padding: 1em;
     
     .p{
         color: #ffda9e;
+        display: inline-block;
     }
     .asi{
         width: 50px;
+        margin: 15%;
     }
     ul{
         color: #fff;
