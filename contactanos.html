@@ -20,19 +20,19 @@
 <form action="">
     <p>
         <label>Nombre Completo</label>
-        <input type="text" pattern="^[a-zA-Z\s]+$" name="fullname" id="fullname">
+        <input type="text" pattern="^[a-zA-Z\s]+$" name="fullname" id="fullname" placeholder="Nombre">
     </p>
     <p>
         <label> Direccion de Correo</label>
-        <input type="email" name="email">
+        <input type="email" name="email" title="Formato de correo: NombreCorreo@dominio" placeholder="NombreCorreo@dominio">
     </p>
     <p>
         <label>Telefono</label>
-        <input type="tel" name="phone" id="phone" pattern="[0-9]{4}-[0-9]{4}" required>
+        <input type="tel" name="phone" title="Solo acepta números en el siguiente formato: 2222-2222" placeholder="2222-2222" id="phone" pattern="[0-9]{4}-[0-9]{4}" required>
     </p>
     <p>
         <label>Asunto</label>
-        <input type="text" name="affair" id="affair">
+        <input type="text" name="affair" id="affair" placeholder="Asunto">
     </p>
     <p class="e">
         <label>Mensaje</label>
@@ -67,11 +67,11 @@
     <ul>
         <li class="p">
             <a href="https://www.facebook.com/profile.php?id=100011003147101" ><img class="asi" src="img/face.webp" alt="facebook"></a>
-            <p>Ratatoulle_PIZZA</p>
+            <ul>Ratatoulle_PIZZA</ul>
         </li>
         <li class="p">
             <a href="https://www.instagram.com/_marcos_c_v/"><img class="asi" src="img/Instagram.svg" alt="Instagram"></a>
-            <p>Ratatoulle_PIZZA</p>
+            <ul>Ratatoulle_PIZZA</ul>
         </li>
 </div>
 </body>
