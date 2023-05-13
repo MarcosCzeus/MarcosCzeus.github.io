@@ -13,7 +13,7 @@
     <form action="#" method="post">
     <h1>Reservaciones de la Pizzería</h1>
       <label for="nombre">Nombre completo:</label>
-      <input type="text" id="nombre" name="nombre" required>
+      <input type="text" pattern="^[a-zA-Z\s]+$" title="Solo se acepta letras" id="nombre" name="nombre" required>
       <br>
       <label for="email">Correo electrónico:</label>
       <input type="email" id="email" name="email" required>
@@ -24,15 +24,11 @@
       <label for="hora">Hora:</label>
       <input type="time" id="hora" name="hora" required>
       <br>
-      <label for="mesas">Número de mesas:</label>
-      <select id="mesas" name="mesas" required>
-        <option value="">Seleccionar</option>
-        <option value="mesa4">Mesa de 4 personas</option>
-        <option value="mesa8">Mesa de 8 personas</option>
-      </select>
-      <br>
       <label for="personas">Número de personas:</label>
       <input type="number" id="personas" name="personas" min="1" required>
+      <br>
+      <label for="nombre">Encarga tu Pizza Ya:</label>
+      <input type="text" id="nombre" name="Pizza" required>
       <br>
       <input type="submit" value="Reservar">
     </form>

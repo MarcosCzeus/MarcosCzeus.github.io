@@ -153,8 +153,3 @@ footer{
     padding: 1%;
     box-sizing: border-box;
 }
-
-section article:nth-child(4){
-    position: relative;
-    margin-left: 33.9%;
-}
