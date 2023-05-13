@@ -11,5 +11,7 @@ link hacia trello https://trello.com/b/wLCAIkyA/desafio2
 [Creative Commons.pdf](https://github.com/MarcosCzeus/MarcosCzeus.github.io/files/11302359/Creative.Commons.pdf)
 
 Participantes: Marcos Ceseus Medina Velásquez #MV232358
-               Marcelo Gabriel Rosales Torres #RT232235
-               Emerson Josué Gabriel Rosales  #GR 
+               
+Marcelo Gabriel Rosales Torres #RT232235
+               
+Emerson Josué Gabriel Rosales  #GR 
